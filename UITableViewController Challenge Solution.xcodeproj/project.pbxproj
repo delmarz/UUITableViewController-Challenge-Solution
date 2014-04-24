@@ -14,13 +14,13 @@
 		CD3482AE1909099B008D2BD4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3482AD1909099B008D2BD4 /* main.m */; };
 		CD3482B21909099B008D2BD4 /* DMZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3482B11909099B008D2BD4 /* DMZAppDelegate.m */; };
 		CD3482B51909099B008D2BD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD3482B31909099B008D2BD4 /* Main.storyboard */; };
-		CD3482B81909099B008D2BD4 /* DMZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3482B71909099B008D2BD4 /* DMZViewController.m */; };
 		CD3482BA1909099B008D2BD4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD3482B91909099B008D2BD4 /* Images.xcassets */; };
 		CD3482C11909099B008D2BD4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD3482C01909099B008D2BD4 /* XCTest.framework */; };
 		CD3482C21909099B008D2BD4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD3482A11909099B008D2BD4 /* Foundation.framework */; };
 		CD3482C31909099B008D2BD4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD3482A51909099B008D2BD4 /* UIKit.framework */; };
 		CD3482CB1909099B008D2BD4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD3482C91909099B008D2BD4 /* InfoPlist.strings */; };
 		CD3482CD1909099B008D2BD4 /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3482CC1909099B008D2BD4 /* UITableViewController_Challenge_SolutionTests.m */; };
+		CD3482D819090D58008D2BD4 /* DMZTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3482D719090D58008D2BD4 /* DMZTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		CD3482B01909099B008D2BD4 /* DMZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMZAppDelegate.h; sourceTree = "<group>"; };
 		CD3482B11909099B008D2BD4 /* DMZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMZAppDelegate.m; sourceTree = "<group>"; };
 		CD3482B41909099B008D2BD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CD3482B61909099B008D2BD4 /* DMZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMZViewController.h; sourceTree = "<group>"; };
-		CD3482B71909099B008D2BD4 /* DMZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMZViewController.m; sourceTree = "<group>"; };
 		CD3482B91909099B008D2BD4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CD3482BF1909099B008D2BD4 /* UITableViewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD3482C01909099B008D2BD4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		CD3482C81909099B008D2BD4 /* UITableViewController Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		CD3482CA1909099B008D2BD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CD3482CC1909099B008D2BD4 /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		CD3482D619090D58008D2BD4 /* DMZTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMZTableViewController.h; sourceTree = "<group>"; };
+		CD3482D719090D58008D2BD4 /* DMZTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMZTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				CD3482B01909099B008D2BD4 /* DMZAppDelegate.h */,
 				CD3482B11909099B008D2BD4 /* DMZAppDelegate.m */,
 				CD3482B31909099B008D2BD4 /* Main.storyboard */,
-				CD3482B61909099B008D2BD4 /* DMZViewController.h */,
-				CD3482B71909099B008D2BD4 /* DMZViewController.m */,
+				CD3482D619090D58008D2BD4 /* DMZTableViewController.h */,
+				CD3482D719090D58008D2BD4 /* DMZTableViewController.m */,
 				CD3482B91909099B008D2BD4 /* Images.xcassets */,
 				CD3482A81909099B008D2BD4 /* Supporting Files */,
 			);
@@ -250,7 +250,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD3482B81909099B008D2BD4 /* DMZViewController.m in Sources */,
+				CD3482D819090D58008D2BD4 /* DMZTableViewController.m in Sources */,
 				CD3482B21909099B008D2BD4 /* DMZAppDelegate.m in Sources */,
 				CD3482AE1909099B008D2BD4 /* main.m in Sources */,
 			);

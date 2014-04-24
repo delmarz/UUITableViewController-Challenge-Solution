@@ -1,5 +1,5 @@
 //
-//  DMZViewController.h
+//  DMZTableViewController.h
 //  UITableViewController Challenge Solution
 //
 //  Created by delmarz on 4/24/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DMZViewController : UIViewController
+@interface DMZTableViewController : UITableViewController
 
 @end
